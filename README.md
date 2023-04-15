@@ -1,6 +1,6 @@
 # Anime Quotes
 
-This is a simple webpage that uses HTML, JS and CSS to display random anime quotes from the Animechan API.
+This is a simple webpage that uses HTML, JS and Tailwind for CSS to display random anime quotes from the [Animechan API](https://animechan.vercel.app/).
 
 ## How to use
 
