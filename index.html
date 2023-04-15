@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <title>Ani Quot-chan</title>
+  <!-- link to tailwind css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+    integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container mx-auto flex flex-col items-center justify-center h-screen">
+    <!-- button to fetch a random quote -->
+    <button id="fetch-quote" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Get a
+      random anime quote</button>
+    <!-- div to display the quote -->
+    <div id="quote-display" class="mt-10 p-5 border border-gray-300 rounded hidden">
+      <!-- paragraph to show the quote -->
+      <p id="quote" class="text-xl italic"></p>
+      <!-- paragraph to show the character name -->
+      <p id="character" class="text-lg font-bold mt-5"></p>
+      <!-- paragraph to show the anime name -->
+      <p id="anime" class="text-lg"></p>
+    </div>
+  </div>
+  <!-- script tag to link to js file -->
+  <script type="application/javascript" src="./app.js"></script>
+</body>
+
+</html>
